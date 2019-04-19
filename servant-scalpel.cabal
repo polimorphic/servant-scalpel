@@ -1,5 +1,5 @@
 name:                servant-scalpel
-version:             0.0.0.0
+version:             0.0.1.0
 build-type:          Simple
 cabal-version:       >=1.10
 
@@ -11,6 +11,6 @@ library
                      , bytestring >=0.10.8 && <0.11
                      , http-media >=0.7.1 && <0.8
                      , scalpable >=0.0.0 && <0.1
-                     , scalpel >=0.5.1 && <0.6
+                     , scalpel >=0.5.1 && <0.7
                      , servant >=0.14.1 && <0.15
   exposed-modules:     Servant.HTML.Scalpel
